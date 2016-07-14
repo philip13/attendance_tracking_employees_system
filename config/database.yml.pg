@@ -1,0 +1,26 @@
+
+development:
+  adapter: postgresql
+  database: tracking_employess_dev
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres_postgres
+  password: postgres_pgpass
+
+
+test:
+  adapter: postgresql
+  database: tracking_employess_test
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres_user
+  password: postgres_pgpass
+
+production:
+  adapter: postgresql
+  database: tracking_employess_pro
+  pool: 5
+  timeout: 5000
+  app: das-attendance
